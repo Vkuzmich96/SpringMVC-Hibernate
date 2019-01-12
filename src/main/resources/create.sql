@@ -1,0 +1,18 @@
+DROP DATABASE IF EXISTS mydtb;
+
+CREATE DATABASE IF NOT EXISTS mydtb;
+
+USE mydtb;
+
+CREATE TABLE `mydtb`.`games` (
+  `game_id` INT NOT NULL AUTO_INCREMENT,
+  `a1` VARCHAR (3) NULL,
+  `a2` VARCHAR (3) NULL,
+  `a3` VARCHAR (3) NULL,
+  `b1` VARCHAR (3) NULL,
+  `b2` VARCHAR (3) NULL,
+  `b3` VARCHAR (3) NULL,
+  `c1` VARCHAR (3) NULL,
+  `c2` VARCHAR (3) NULL,
+  `c3` VARCHAR (3) NULL,
+  PRIMARY KEY (`game_id`));
